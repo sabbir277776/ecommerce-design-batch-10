@@ -1,80 +1,142 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="HTTrack is an easy-to-use website mirror utility. It allows you to download a World Wide website from the Internet to a local directory,building recursively all structures, getting html, images, and other files from the server to your computer. Links are rebuiltrelatively so that you can freely browse to the local site (works with any browser). You can mirror several sites together so that you can jump from one toanother. You can, also, update an existing mirror site, or resume an interrupted download. The robot is fully configurable, with an integrated help" />
+	<meta name="keywords" content="httrack, HTTRACK, HTTrack, winhttrack, WINHTTRACK, WinHTTrack, offline browser, web mirror utility, aspirateur web, surf offline, web capture, www mirror utility, browse offline, local  site builder, website mirroring, aspirateur www, internet grabber, capture de site web, internet tool, hors connexion, unix, dos, windows 95, windows 98, solaris, ibm580, AIX 4.0, HTS, HTGet, web aspirator, web aspirateur, libre, GPL, GNU, free software" />
+	<title>Local index - HTTrack Website Copier</title>
+  <!-- Mirror and index made by HTTrack Website Copier/3.49-2 [XR&CO'2014] -->
+	<style type="text/css">
+	<!--
 
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
+body {
+	margin: 0;  padding: 0;  margin-bottom: 15px;  margin-top: 8px;
+	background: #77b;
+}
+body, td {
+	font: 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	}
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+#subTitle {
+	background: #000;  color: #fff;  padding: 4px;  font-weight: bold; 
+	}
 
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
+#siteNavigation a, #siteNavigation .current {
+	font-weight: bold;  color: #448;
+	}
+#siteNavigation a:link    { text-decoration: none; }
+#siteNavigation a:visited { text-decoration: none; }
 
-    <!-- Scripts -->
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+#siteNavigation .current { background-color: #ccd; }
+
+#siteNavigation a:hover   { text-decoration: none;  background-color: #fff;  color: #000; }
+#siteNavigation a:active  { text-decoration: none;  background-color: #ccc; }
+
+
+a:link    { text-decoration: underline;  color: #00f; }
+a:visited { text-decoration: underline;  color: #000; }
+a:hover   { text-decoration: underline;  color: #c00; }
+a:active  { text-decoration: underline; }
+
+#pageContent {
+	clear: both;
+	border-bottom: 6px solid #000;
+	padding: 10px;  padding-top: 20px;
+	line-height: 1.65em;
+	background-image: url(backblue.gif);
+	background-repeat: no-repeat;
+	background-position: top right;
+	}
+
+#pageContent, #siteNavigation {
+	background-color: #ccd;
+	}
+
+
+.imgLeft  { float: left;   margin-right: 10px;  margin-bottom: 10px; }
+.imgRight { float: right;  margin-left: 10px;   margin-bottom: 10px; }
+
+hr { height: 1px;  color: #000;  background-color: #000;  margin-bottom: 15px; }
+
+h1 { margin: 0;  font-weight: bold;  font-size: 2em; }
+h2 { margin: 0;  font-weight: bold;  font-size: 1.6em; }
+h3 { margin: 0;  font-weight: bold;  font-size: 1.3em; }
+h4 { margin: 0;  font-weight: bold;  font-size: 1.18em; }
+
+.blak { background-color: #000; }
+.hide { display: none; }
+.tableWidth { min-width: 400px; }
+
+.tblRegular       { border-collapse: collapse; }
+.tblRegular td    { padding: 6px;  background-image: url(fade.gif);  border: 2px solid #99c; }
+.tblHeaderColor, .tblHeaderColor td { background: #99c; }
+.tblNoBorder td   { border: 0; }
+
+
+// -->
+</style>
+
 </head>
-<body>
-    <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-            <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav me-auto">
+<table width="76%" border="0" align="center" cellspacing="0" cellpadding="3" class="tableWidth">
+	<tr>
+	<td id="subTitle">HTTrack Website Copier - Open Source offline browser</td>
+	</tr>
+</table>
+<table width="76%" border="0" align="center" cellspacing="0" cellpadding="0" class="tableWidth">
+<tr class="blak">
+<td>
+	<table width="100%" border="0" align="center" cellspacing="1" cellpadding="0">
+	<tr>
+	<td colspan="6"> 
+		<table width="100%" border="0" align="center" cellspacing="0" cellpadding="10">
+		<tr> 
+		<td id="pageContent"> 
+<!-- ==================== End prologue ==================== -->
 
-                    </ul>
+	<meta name="generator" content="HTTrack Website Copier/3.x">
+	<TITLE>Local index - HTTrack</TITLE>
+</HEAD>
+<BODY>
+<H1 ALIGN=Center>Index of locally available sites:</H1>
+	<TABLE BORDER="0" WIDTH="100%" CELLSPACING="1" CELLPADDING="0">
+		<TR>
+			<TD BACKGROUND="fade.gif">
+				&middot;
+					<A HREF="isshue.bdtask-demo.com/isshue_v5_demo/index.html">
+						isshue.bdtask-demo.com/isshue_v5_demo/index.html
+					</A>		
+			</TD>
+		</TR>
+	</TABLE>
+	<BR>
+	<BR>
+	<BR>
+  	<H6 ALIGN="RIGHT">
+	<I>Mirror and index made by HTTrack Website Copier [XR&amp;CO'2008]</I>
+	</H6>
+	<!-- Mirror and index made by HTTrack Website Copier/3.49-2 [XR&CO'2014] -->
+	<!-- Thanks for using HTTrack Website Copier! -->
+	<meta HTTP-EQUIV="Refresh" CONTENT="0; URL=isshue.bdtask-demo.com/isshue_v5_demo/index.html">
 
-                    <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ms-auto">
-                        <!-- Authentication Links -->
-                        @guest
-                            @if (Route::has('login'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                                </li>
-                            @endif
 
-                            @if (Route::has('register'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                                </li>
-                            @endif
-                        @else
-                            <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{ Auth::user()->name }}
-                                </a>
+<!-- ==================== Start epilogue ==================== -->
+		</td>
+		</tr>
+		</table>
+	</td>
+	</tr>
+	</table>
+</td>
+</tr>
+</table>
 
-                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="{{ route('logout') }}"
-                                       onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                        {{ __('Logout') }}
-                                    </a>
+<table width="76%" border="0" align="center" valign="bottom" cellspacing="0" cellpadding="0">
+	<tr>
+	<td id="footer"><small>&copy; 2008 Xavier Roche & other contributors - Web Design: Leto Kauler.</small></td>
+	</tr>
+</table>
 
-                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                                        @csrf
-                                    </form>
-                                </div>
-                            </li>
-                        @endguest
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <main class="py-4">
-            @yield('content')
-        </main>
-    </div>
 </body>
+
 </html>
